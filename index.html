@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/navBar.css">
+    <link rel="stylesheet" href="/css/navBar.css">
     <link href="./fonts/Rubik-VariableFont_wght.ttf">
     <link href="./fonts/Rubik-Italic-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="/css/banner.css">
     <title>FESVIP: Faculdade de Enfermagem São Vicente de Paula</title>
 </head>
 
@@ -116,7 +117,16 @@
             <img id="logo" src="/img/logo.png" alt="logo">
             <div class="menu">
                 <a href="">HOME</a>
-                <a href="">CURSOS</a>
+                <div id="dropdownMenu">
+                    <a href="">CURSOS
+                        <div class="dropdownMenu ligthMode">
+                            <a href="">Graduação</a>
+                            <a href="">Pós-Graduação</a>
+                            <a href="">Técnicos</a>
+                        </div>
+                    </a>
+                    <div class="border"></div>
+                </div>
                 <a href="">ESTRUTURA</a>
                 <a href="">VESTIBULAR</a>
                 <a href="">DOWNLOADS</a>
@@ -126,6 +136,38 @@
         </nav>
         <div class="borda-inferior-nav"></div>
     </div>
+    <div class="slide">
+        <div class="banner">
+            <div class="img-banner">
+                <img src="/img/VEM_SER_FESVIP-banner.png" alt="">
+                <img id="enfermeira" src="/img/enfermeira.png" alt="">
+            </div>
+        </div>
+        <div class="texto-banner">
+            <h1>Vem por aqui escolher a <br>
+                solução certa para você.</h1>
+            <div class="span-banner">
+                <h2>Cursos na área da <br> saúde por apenas</h2>
+                <span>R$ 150*</span>
+            </div>
+            <div class="butons-banner">
+                <a href="">TODOS OS CURSOS</a>
+                <a href="">MATRICULE-SE</a>
+            </div>
+            <div class="condicoes-banner">
+                <span>*Consulte condições <a href="">aqui</a>.</span>
+            </div>
+            <div class="vetor-setas">
+                <img src="/img/vetor.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="letreiro">
+        <h3 id="letreiro1">Venha para a <b>FESVIP</b>, estamos aguardando por você aqui!</h3>
+        <h3 id="letreiro2">Não perca a chance de fazer parte da <b>FESVIP</b>, estamos ansiosos para recebê-lo!</h3>
+    </div>
+    <script src="/js/letreiro.js"></script>
+    <script src="/js/dropDownMenu.js"></script>
     <script src="/js/darkMode.js"></script>
 </body>
 

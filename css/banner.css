@@ -1,0 +1,114 @@
+.img-banner img{
+    width: 500px;
+    position: relative;
+}
+#enfermeira{
+    position: absolute;
+    width: 350px;
+    left: 15%;
+    bottom: 10px;
+}
+.img-banner{
+    position: relative;
+    display: flex;
+    clip-path: polygon(33% 0%, 66% 0%, 100% 0%, 100% 0%, 100% 0%, 82.3% 90.5%, 47% 38%, 21.9% 100%, 0% 100%, 0% 66%, 0% 33%, 0% 0%);
+    background-color: #f6fdfb; 
+}
+.banner{
+    position: relative;
+    margin-top: 5px;
+    background-color: #71e2a248;
+    width: 100%;
+}
+.texto-banner{  
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+.texto-banner h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #009843;
+    margin: 0;
+}
+.span-banner{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.span-banner h2{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #17375C;
+}
+.span-banner span{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 700;
+    padding: 10px;
+    padding-inline: 15px;
+    border-radius: 15px;
+    font-size: 40px;
+    background-color: #17375C;
+    color: #f6fdfb; 
+}
+
+.butons-banner a{
+    text-decoration: none;
+    border: 1px solid #009843;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.butons-banner a:nth-child(1){
+    color: #009843;
+    transition: color 1s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+.butons-banner a:nth-child(1):hover{
+    color: #f6fdfb;
+    background-color: #009843;
+}
+.butons-banner a:nth-child(2){
+    color: #f6fdfb;
+    background-color: #009843;
+}
+.butons-banner a:nth-child(2):hover{
+    background-color: #03692f;
+}
+.slide{
+    position: relative;
+    overflow: hidden;
+}
+.condicoes-banner{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.condicoes-banner a{
+    font-weight: 500;
+    color: #4F4C4D;
+}
+.vetor-setas img{
+    position: absolute;
+    width: 150px;
+    left: 35%;
+    top: 40%;
+    z-index: -1;
+}
+.letreiro{
+    background-color: #009843;
+    text-align: center;
+}
+.letreiro h3{
+    margin: 0;
+    padding: 15px;
+    color: #f6fdfb;
+    font-weight: 300;
+}
